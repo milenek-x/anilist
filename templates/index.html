@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Anime List - @milenekx</title>
+	<title>My Anime List</title>
 	<style>
 	body {
 		background-color: #F8F8F8;
@@ -95,7 +95,7 @@
 
 </head>
 <body>
-	<h1>Anime List - @milenekx</h1>
+	<h1>My Anime List</h1>
 	{% for anime_list in anime_lists %}
 	<h2>{{ anime_list['name'] }}</h2>
 	<ul>
@@ -103,7 +103,7 @@
 		<li>
 			<img src="{{ entry['image'] }}" alt="{{ entry['title'] }} cover image">
 			<h3>{{ entry['title'] }}</h3>
-			<p>{{ entry['description'].replace('&lt;', '<').replace('&gt;', '>') }}</p>
+			<p>{{ entry['description'] }}</p>
 			<p>Status: {{ entry['status'] }}</p>
 			<p>Progress: {{ entry['progress'] }}</p>
 		</li>
