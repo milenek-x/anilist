@@ -1,8 +1,8 @@
 import requests
 
-client_id = "11937"
-client_secret = "VfacIjXwzkJHsJDGe8g1YWkf37FtV8JUYwOOQ6Wd"
-redirect_uri = "http://personalanimelist.pythonanywhere.com/"
+client_id = "YOUR_CLIENT_ID"
+client_secret = "YOUR_CLIENT_SECRET"
+redirect_uri = "YOUR_WEBSITE_URL/"
 
 # Prompt the user to authorize your app and obtain an authorization code
 auth_url = "https://anilist.co/api/v2/oauth/authorize?client_id={}&redirect_uri={}&response_type=code".format(client_id, redirect_uri)
