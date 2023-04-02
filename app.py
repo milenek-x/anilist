@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxYzYzNmZjMTE1NjU5MjJiZmVhODljYjQwYjQ3ZGU5MTA1YzhiNWM2OTE2YjM1NmZlMzNmZWIyYTBjYjU0ZGEyMDE4NGZmNjA5NGYyMDIwIn0.eyJhdWQiOiIxMTkzNyIsImp0aSI6ImUxYzYzNmZjMTE1NjU5MjJiZmVhODljYjQwYjQ3ZGU5MTA1YzhiNWM2OTE2YjM1NmZlMzNmZWIyYTBjYjU0ZGEyMDE4NGZmNjA5NGYyMDIwIiwiaWF0IjoxNjgwNDEwMTU5LCJuYmYiOjE2ODA0MTAxNTksImV4cCI6MTcxMjAzMjU1OSwic3ViIjoiNTM1ODA4Iiwic2NvcGVzIjpbXX0.HmQ5LPWIWj9kUz0d4-tv6rYHJyqPmVZhuYzcLG-nrBjVEV8bimdEn3hgUnEn4OvYyo0pHgbrdVWBX1Tmxe-LV8nwS6wrLHBavGMvyCeQO27J1p5DsgatkU_p6poe7TcUf49SJ67BBBKM1APWo6YqO9voKqJlGEJwEM4vMuEno3t-kzeHnOoGPgh0xR2X2C5mc0ZW-G6mgD-h0urafEMlsdo8TD5w7CkTHtTK_8e8vjPi4HMQomTGGPJ51JCUJC_jArZdYIeHpUqhcg0BcslN1-7qzqpF-jVpQlJR0bvXnGYAaucrSUCfIiTi0TMup-r2oN3wadLgk53ofxJOHan07nOSZJ4l6mMmmKcUvHfiu2TwF-1x9szDgWZOn4oJQzMtQEShyQZdHlwSFjqCHd_ZKlx-vco1typ2_COoQwLJ6oFaq2krJdoBXhYc-yw75YfFRZnDm9e9j8VtfVxYgSoQ1h9MO0xfJmZSdNY1EWPSUgqka0z2rXchWzf_P6USYI_EzBQWvlFAhfQrYriiJ5we8H0cEI5RSyuCSumB1ZeuL5iHz7NJfuHL4QeiVI07gxqlD4ffzWx0zK54XiPclie2EduJyc7jaGh5n4RyouFZeE5hAtXbMD7OHhQwy2dg20UJl7BRL6h6z21WBVg5tVpqrQC9Oebu0_kfT83QLm3X0Oo"
+access_token = "YOUR_ACCESS_TOKEN"
 
 @app.route("/")
 def index():
@@ -32,7 +32,7 @@ def index():
     '''
 
     variables = {
-        "userName": "milenekx"
+        "userName": "YOUR_ANILIST_USERNAME"
     }
 
     headers = {
